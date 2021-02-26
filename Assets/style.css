@@ -1,10 +1,10 @@
 /* Navbar style */
 nav {
-    background-color: rgb(56, 58, 58);
-    /* text-align: center; */
-
+    font-family: nunito;
+    font: 300;
 }
 
-/* div .a {
-    text-align: center;
-} */
+.fw-light {
+    font-family: Nunito;
+   
+}
