@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +15,7 @@
        
     </head>
     
+
     <body>
     <!-- Navbar -->
       <header>  
@@ -27,8 +29,8 @@
                 <div class="nav justify-content-end">  
                 <div class="navbar-nav">
                   <span class="navbar-text"></span>
-                  <a class="nav-link " aria-current="page" href="#">about</a>
-                  <a class="nav-link " href="#">portfolio</a>
+                  <a class="nav-link " aria-current="page" href="#work-portfolio">work</a>
+                  <a class="nav-link " href="#">about</a>
                   <a class="nav-link " href="#">contact</a>
                 </div>
                </div>
@@ -37,16 +39,22 @@
           </nav>
       </header>   
 
-      <!-- <section class="py-5">  -->
+
+   <!--The designer picture shows in here--> 
+    <section class="py-5" > 
       <div class="container">
-        <img src="./Assets/img/portfolio pic.png" alt="A picture of Nadia with a paint brush where half is abstract and the other half is the actual person">
-        <div class="centerleft">designer</div>
-        <p class="centerleftp">UX designer </p>
-        <div class="centeright">coder</div>
-      </div>
+          <h1 class="display-4 text-center"> Nadia
+          <small class = "text-muted"> Dorado</small>
+          </h1>
+       <img src="./Assets/img/portfolio pic.png" class="img-fluid mx-auto d-block" alt="A picture of Nadia with a paint brush where half is abstract and the other half is the actual person"> 
+         <h2 class="centerleft">designer</h2>
+          <p class="centerleftp">UX designer </p>
+      <h2 class="centeright">coder</h2>
+    </div>
+      </section>
       
 
-      <!--The designer picture shows in here--> 
+    
       
           <!-- <section class="py-5 container"> 
           <img src="./Assets/img/portfolio pic.png" class="img-fluid mx-auto d-block" alt="A picture of Nadia with a paint brush where half is abstract and the other half is the actual person">
@@ -59,16 +67,20 @@
             </div> 
             </section> -->
     
-            <!-- columns-->
-            <!--The UX work place holder-->
+       
+
+
+            <!-- Work -->
            <main>
             
-            <section class="work py-5 bg-light">
+            <section id="work-portfolio" class="work py-5 bg-light">
               <div class="container">
+                <h3 class="display-20 py-4 fw-lighter text-center">SOME OF MY LATEST WORK</h3>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                   <div class="col">
                     <div class="card shadow-sm">
-                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+           
+                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
         
 
             <div class="card-body">
@@ -104,8 +116,24 @@
           </div>
         </div>
       </section>
+
+    <!-- About section -->
+    
+
         </main>
-        
+        <div class="card text-center">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+          <div class="card-footer text-muted">
+            2 days ago
+          </div>
+        </div>
 
 
 

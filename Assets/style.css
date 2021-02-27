@@ -1,8 +1,5 @@
 /* Navbar style */
-nav {
-    font-family: nunito;
-    font: 300;
-}
+
 
 /* font-family: 'Chicle', cursive;
 font-family: 'Nunito', sans-serif; */
@@ -12,11 +9,12 @@ font-family: 'Nunito', sans-serif; */
     position: relative;
 }
 
+
 .centerleft {
     position: absolute;
     top: 200px; 
     left: auto;
-    font-size: 60px;  
+    font-size: 50px;  
     font-family: 'Chicle', cursive;
 }
 
@@ -24,15 +22,14 @@ font-family: 'Nunito', sans-serif; */
     position: absolute;
     top: 200px;
     right: 150px;
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Nunito', sans-serif;
   }
 
   img {
-      
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
   }
     
