@@ -1,9 +1,33 @@
 /* font-family: 'Chicle', cursive;
 font-family: 'Nunito', sans-serif; */
+nav {
+  background-color:#ac7892f5;
+  font-family: 'Nunito', sans-serif;
+  font-size: 17pt;
+}
+
+.nav-link,
+.navbar-toggler {
+  color:white;
+} 
+.github-icon{
+  position: absolute;
+  right: 85px;
+  bottom: 10px;
+  width: 85px;
+}
+
+.linkedIn-icon{
+  position: absolute;
+  right: 15px;
+  bottom: 6px;
+  width: 95px;
+}
 
 /* Section with Nadia's img & text style */
 .container {
     position: relative;
+    padding-top: 5%;
 }
 
 .centerleft {
