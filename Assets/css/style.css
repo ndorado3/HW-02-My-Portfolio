@@ -14,59 +14,63 @@ nav {
   position: absolute;
   right: 85px;
   bottom: 10px;
-  width: 85px;
+  width: 80px;
 }
 
 .linkedIn-icon{
   position: absolute;
-  right: 15px;
+  right: 20px;
   bottom: 6px;
   width: 95px;
 }
 
 /* Section with Nadia's img & text style */
+h1 {
+  padding-top: 15%;
+}
+
 .container {
     position: relative;
     padding-top: 5%;
 }
-
+/* designer text */
 .centerleft {
-    position: absolute;
+    position: relative;
     top: 200px; 
     left: auto;
     font-size: 50px;  
     font-family: 'Chicle', cursive;
 }
 .centerleftp {
-  position: absolute;
-  top: 260px; 
+  position: relative;
+  top: 200px; 
   left: auto;
   font-size: 20px;;  
- 
 }
-.centeright {
-    position: absolute;
+
+/* coder text */
+.coder {
+    position: relative;
     top: 200px;
-    right: 45px;
+    right: 9px;
     font-size: 50px;
     font-family: 'Nunito', sans-serif;
   }
 .centerightp {
-    position: absolute;
-    top: 260px;
-    right: 45px;
+    position: relative;
+    top: 200px;
+    right: 9px;
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
   }
+/* my picture styling */
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
   }
-@media screen and (max-width: 800px) {
-    .imgText {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-  }    
-/* contact section */
+
+.my-pic{
+  padding: auto;
+  align-content: center;
+  /* width: 50%; */
+  /* height: 20%; */
+}

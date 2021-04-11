@@ -26,8 +26,8 @@
   </head>
 
   <body>
-    <!-- Navbar -->
     <header>
+      <!-- Navbar -->
       <nav class="col-12 navbar navbar-expand-lg fixed-top">
         <div class="container-fluid m-2">
           <button
@@ -47,10 +47,17 @@
               <a class="nav-link work" href="#work-portfolio">work</a>
               <a class="nav-link about" href="#about-me-section">about</a>
               <a class="nav-link contact" href="#contact-section">contact</a>
-              <a class="nav-link github-icon" href="https://github.com/ndorado3">
+              <!-- nav icons -->
+              <a
+                class="nav-link github-icon"
+                href="https://github.com/ndorado3"
+              >
                 <img src="./Assets/img/lgo-github.png" alt="github icon" />
               </a>
-              <a class="nav-link linkedIn-icon" href="https://www.linkedin.com/in/nadia-dorado/">
+              <a
+                class="nav-link linkedIn-icon"
+                href="https://www.linkedin.com/in/nadia-dorado/"
+              >
                 <img src="./Assets/img/linkedIn-icon.png" alt="linkedin icon" />
               </a>
             </class>
@@ -60,91 +67,68 @@
     </header>
 
     <!--The designer picture shows in here-->
-    <section class="py-5">
-      <div class="container">
-        <h1 class="display-4 text-center">
-          Nadia
-          <small class="text-muted"> Dorado</small>
-        </h1>
-        <img
-          src="./Assets/img/portfolio pic.png"
-          class="img-fluid mx-auto d-block"
-          alt="A picture of Nadia with a paint brush where half is abstract and the other half is the actual person"
-        />
-        <div class="imgText">
+    <section class="container flex-container-fliud">
+      <div class="row">
+        <!-- Designer div -->
+        <div class="col">
           <h2 class="centerleft">designer</h2>
           <p class="centerleftp text-muted">I am an UX designer enthusiast</p>
-          <h2 class="centeright">coder</h2>
+        </div>
+        <!-- Name div  -->
+        <div class="col">
+          <h1 class="display-4 text-center">
+            Nadia
+            <small class="text-muted"> Dorado</small>
+          </h1>
+        </div>
+        <!-- coder text div -->
+        <div class="col">
+          <h2 class="coder">coder</h2>
           <p class="centerightp text-muted">
             & a full stack Web developer in progress
           </p>
         </div>
+        <!-- my picture -->
+        <img
+          src="./Assets/img/my-pic.png"
+          class="img-fluid mx-auto d-block my-pic"
+          alt="A picture of Nadia with a paint brush where half is abstract and the other half is the actual person"
+        />
       </div>
     </section>
 
-    <!-- Work -->
     <main>
-      <section id="work-portfolio" class="work py-5 bg-light">
-        <div class="container">
+      <!-- projects div -->
+      <section id="work-portfolio" class="card mb-3 projects-div">
+        <div class="card-header">
           <h3 class="display-20 py-4 fw-lighter text-center">
             SOME OF MY LATEST WORK
           </h3>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <!-- <section class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> -->
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-4" style="max-width: fit-content">
+            <img
+              src="./Assets/img/pawme-form.png"
+              alt="submition form from Pawme website"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title1">PawMe</h4>
+              <h5 class="card-text">Discover Your New Best Friend!</h5>
+              <p>
+                A user who is just beginning their adoption search can use PawMe
+                to find adoptable pets near them!
+              </p>
+              <p>Use the PawMe button to find a random pup for inspiration.</p>
+              <p>
+                Our ideal user is someone looking for their next furry soulmate.
+              </p>
 
-            <!--Horizeon website with working link-->
-            <div class="col">
-              <div class="card shadow-sm" style="width: 22rem" height="225">
-                <a href="https://ndorado3.github.io/01-Code-Refactor/">
-                  <img
-                    src="./Assets/img/week-01-hw-webpage-screenshot.jpg"
-                    class="card-img-top"
-                    aria-label="Thumbnail"
-                    alt="image of the horizon website"
-                  />
-                </a>
-                <div class="card-body">
-                  <p class="card-text">
-                    I refactored the code to make it more accesable.<br />CSS
-                    HTML
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <!--Place holders-->
-            <div class="col">
-              <div class="card shadow-sm" style="width: 22rem" height="225">
-                <img
-                  src="./Assets/img/week-01-hw-webpage-screenshot.jpg"
-                  class="card-img-top"
-                  aria-label="Thumbnail"
-                  alt="image of the horizon website"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
-              <div class="card shadow-sm" style="width: 22rem" height="225">
-                <img
-                  src="./Assets/img/week-01-hw-webpage-screenshot.jpg"
-                  class="card-img-top"
-                  aria-label="Thumbnail"
-                  alt="image of the horizon website"
-                />
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </div>
-              </div>
+              <p class="deployed-link"><a href="https://Savannahf.github.io/The_Omega_Project">Link to the Website</a>
+              </p>
+              <p class="deployed-link"><a href="https://github.com/SavannahF/The-Omega-Project">Link to the Repo</a>
+              </p>
             </div>
           </div>
         </div>
@@ -164,9 +148,13 @@
         </div>
         <div class="card-body">
           <p class="card-text py-4">
-            I was born and raced in Bogota, Colombia,<br />
+            I was born and raced in Bogota, Colombia,<br/>
             and I love my Latin culture.<br />
-            I currently live in Bristol, TN.
+            I am enthusiast full stack web developer and UX designer with a<br/>
+            background in Industrial Design. My interest in web development and<br/>
+            UX design grows form my fascination with human judgment,<br/>
+            decision-making process and problem solving. My military career had<br/>
+            thought me to be persistent and solve problems in creative ways.<br/>
           </p>
         </div>
       </section>
@@ -181,6 +169,9 @@
             porque yo también hablo Español.
           </p>
           <p>(426) 742-6138<br />nadiadorado@gmail.com</p>
+          <div>
+            <p><a href="./Assets/img/Nadia Dorado resume.pdf">Resume</a></p>
+          </div>
         </div>
       </section>
     </main>
