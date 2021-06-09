@@ -1,17 +1,18 @@
-# My Porfolio: HW 02
+# My Porfolio
 
 This is a single page website where the user can find my most recent works, short bio and a way to contact me.
-
 
 ## Portfolio Webpage
 
 The website is responsive to the screen changes Bootstarp 5.0
 
 **Navagation Bar** 
-Contains active links to their respective sections, as by clicking work, about and contact the page will take the user to that specific section. On the rigt side of the screen the icons for Github and LinkIn can be found. Also, the words turn lighter as a feed back to the user when they are hovering over.
+
+- Contains active links to their respective sections, as by clicking work, about and contact the page will take the user to that specific section. On the rigt side of the screen the icons for Github and LinkIn can be found. Also, the words turn lighter as a feed back to the user when they are hovering over.
 
 **Work section** 
-The PawMe project conatins a screenshot of the webpage, a description, a link to the website and the link to the repo. 
+
+- The PawMe project conatins a screenshot of the webpage, a description, a link to the website and the link to the repo. 
 
 ## Screenshot
 
@@ -23,6 +24,11 @@ The following image shows the web application's appearance:
 
 Website's live link from GitHub (https://ndorado3.github.io/HW-02-My-Portfolio/)
 
+## Contributions
+
+The following were contributors to this project:
+
+- [Nadia Dorado](https://github.com/ndorado3)
 
 ## License
 

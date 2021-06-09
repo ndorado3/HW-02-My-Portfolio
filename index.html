@@ -39,31 +39,41 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <class class="navbar-nav">
-              <span class="navbar-text"></span>
-              <a class="nav-link work" href="#work-portfolio">work</a>
-              <a class="nav-link about" href="#about-me-section">about</a>
-              <a class="nav-link contact" href="#contact-section">contact</a>
-              <!-- nav icons -->
+            <span class="navbar-toggler-icon">
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link work" href="#work-portfolio">work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link about" href="#about-me-section">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link contact" href="#contact-section">contact</a>
+                </li>
+                <!-- nav icons -->
+                <li class="nav-item">
+                  <a
+                  class="nav-link github-icon"
+                  href="https://github.com/ndorado3"
+                  >
+                  <img src="./Assets/img/lgo-github.png" alt="github icon" />
+                </a>
+              </li>
+              
               <a
-                class="nav-link github-icon"
-                href="https://github.com/ndorado3"
+              class="nav-link linkedIn-icon"
+              href="https://www.linkedin.com/in/nadia-dorado/"
               >
-                <img src="./Assets/img/lgo-github.png" alt="github icon" />
-              </a>
-              <a
-                class="nav-link linkedIn-icon"
-                href="https://www.linkedin.com/in/nadia-dorado/"
-              >
-                <img src="./Assets/img/linkedIn-icon.png" alt="linkedin icon" />
-              </a>
-            </class>
-          </div>
+              <img src="./Assets/img/linkedIn-icon.png" alt="linkedin icon" />
+            </a>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </span>
     </header>
 
     <!--The designer picture shows in here-->
@@ -105,34 +115,54 @@
             SOME OF MY LATEST WORK
           </h3>
         </div>
-        <div class="row no-gutters">
-          <div class="col-md-4" style="max-width: fit-content">
-            <img
+       
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <img
+              src="./Assets/img/wilbo.png"
+              alt="home page of wilbo"
+            >
+              <div class="card-body">
+                <h3 class="card-title">Wilbo</h3>
+                <h5 class="card-text">Turn your favorite liquor bottle into a hookah!!</h5>
+                <p class="card-text">This is an online storefront, with user regitration and login credentials,<br>for a custom hookah-making company called Wilbo.</p>
+                <h5>How it works!!</h5>
+                <p>Go to the "Get Started" link at the right hand corner of the page, and from bottle of liquor choices, pick one, then select the amount of hoses,if you like lights, ore not, and the name that will be on the base of the hookah</p>
+                <p class="deployed-link"><a href="https://the-hookahp.herokuapp.com/">Link to the Website</a>
+                </p>
+                <p class="deployed-link"><a href="https://github.com/SavannahF/the_hookahp">Link to the Repo</a>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <!-- PawMe project -->
+          <div class="col-sm-6">
+            <div class="card pawme">
+              <img
               src="./Assets/img/pawme-form.png"
               alt="submition form from Pawme website"
-            />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h4 class="card-title1">PawMe</h4>
-              <h5 class="card-text">Discover Your New Best Friend!</h5>
-              <p>
-                A user who is just beginning their adoption search can use PawMe
-                to find adoptable pets near them!
-              </p>
-              <p>Use the PawMe button to find a random pup for inspiration.</p>
-              <p>
-                Our ideal user is someone looking for their next furry soulmate.
-              </p>
-
-              <p class="deployed-link"><a href="https://Savannahf.github.io/The_Omega_Project">Link to the Website</a>
-              </p>
-              <p class="deployed-link"><a href="https://github.com/SavannahF/The-Omega-Project">Link to the Repo</a>
-              </p>
+            >
+              <div class="card-body">
+                <h3 class="card-title">PawMe</h3>
+                <h5 class="card-text">Discover Your New Best Friend!</h5>
+                <p>
+                  A user who is just beginning their adoption search can use PawMe
+                  to find adoptable pets near them!
+                </p>
+                <p>Use the PawMe button to find a random pup for inspiration.</p>
+                <p>
+                  Our ideal user is someone looking for their next furry soulmate.
+                </p>
+                <p class="deployed-link"><a href="https://Savannahf.github.io/The_Omega_Project">Link to the Website</a>
+                </p>
+                <p class="deployed-link"><a href="https://github.com/SavannahF/The-Omega-Project">Link to the Repo</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
 
       <!-- About Me section -->
       <section id="about-me-section" class="card text-center">
@@ -170,7 +200,7 @@
           </p>
           <p>(426) 742-6138<br />nadiadorado@gmail.com</p>
           <div>
-            <p><a href="./Assets/img/Nadia Dorado resume.pdf">Resume</a></p>
+            <p><a href="./Assets/img/resume.pdf">Resume</a></p>
           </div>
         </div>
       </section>

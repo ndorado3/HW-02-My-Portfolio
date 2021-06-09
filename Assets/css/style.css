@@ -22,6 +22,8 @@ nav {
   right: 20px;
   bottom: 6px;
   width: 95px;
+    /* width: 80%; */
+
 }
 
 /* Section with Nadia's img & text style */
@@ -69,8 +71,10 @@ img {
   }
 
 .my-pic{
+  width: 80%;
   padding: auto;
   align-content: center;
   /* width: 50%; */
   /* height: 20%; */
 }
+
