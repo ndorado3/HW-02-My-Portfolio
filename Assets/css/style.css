@@ -78,3 +78,23 @@ img {
   /* height: 20%; */
 }
 
+/* project images styling */
+
+.pawmeimg{
+  width: 58%;
+  padding-left: 10%;
+  padding-top: 8%;
+
+  align-content: center;
+  /* width: 50%; */
+  height: 20%;
+}
+
+.wilboimg{
+  width: 85%;
+  padding-left: 10%;
+  padding-top: 10%;
+  align-content: center;
+  /* width: 50%; */
+  height: 20%;
+}
